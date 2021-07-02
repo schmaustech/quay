@@ -67,7 +67,7 @@
     SECURITY_SCANNER_INDEXING_INTERVAL: 30
     SECURITY_SCANNER_V4_ENDPOINT: http://quay.schmaustech.com:8081
     SECURITY_SCANNER_V4_PSK: MTU5YzA4Y2ZkNzJoMQ==
-    SERVER_HOSTNAME: quay.schmaustech.com:8080
+    SERVER_HOSTNAME: quay.schmaustech.com
      
      
     Update Quay Configuration
