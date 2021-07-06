@@ -61,14 +61,14 @@ jwtproxy:
 
     # If Clair is to be served via TLS, uncomment these lines. See the "Running Clair under TLS"
     # section below for more information.
-    key_file: /clair/config/domain.key
-    crt_file: /clair/config/domain.crt
+    #key_file: /clair/config/domain.key
+    #crt_file: /clair/config/domain.crt
 
     verifier:
       # CLAIR_ENDPOINT is the endpoint at which this Clair will be accessible. Note that the port
       # specified here must match the listen_addr port a few lines above this.
       # Example: https://myclair.mycompany.com:6060
-      audience: https://quay.schmaustech.com:6060
+      audience: http://quay.schmaustech.com:6060
 
       upstream: http://localhost:6062
       key_server:
